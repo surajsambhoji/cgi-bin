@@ -24,8 +24,8 @@ def send_email(sender_email, sender_password, receiver_email, subject, body):
         print("Error sending email:", e)
 
 # Example usage:
-sender_email = 'mrroot0731@gmail.com'
-sender_password = 'novdantblgdlzslc'
+sender_email = 'your@gmail.com'
+sender_password = 'no******lc'
 
 receiver = cgi.FieldStorage()
 receiver_email = receiver.getvalue("r")
